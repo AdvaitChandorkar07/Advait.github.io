@@ -1,0 +1,118 @@
+/* hero background image */
+.bgimage {
+    background-image: url('home.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+/* navbar styling */
+.navbar {
+    padding: 1rem 0;
+}
+
+/* Style for navbar links */
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #008000;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+/* hero text styling */
+.hero-text {
+    position: absolute;
+    bottom: -20em;
+    right: 0;
+    text-align: right;
+    color: white;
+    padding: 20px;
+    /* Optional: Add padding for better visibility */
+}
+
+.hero_title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.hero_desc {
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* rest of your styles... */
+
+/* rest of your styles... */
+/* rest of your styles... */
+
+#about,
+#services,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
+}
+
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+#footer {
+    background-color: #008000;
+    color: white;
+    padding: 2rem 0;
+}
+/* Update your CSS to target the #contact ID for styling the footer */
+

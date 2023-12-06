@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advait Chandorkar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="bgimage" id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarDark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Advait Chandrokar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Innovative</h2>
+                    <p class="hero_desc" style="line-height: 1;">Mechanical<br>Engineer</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- rest of your code... -->
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add your stylesheets and other head elements here -->
+    <!-- ... -->
+</head>
+
+<body>
+
+    <!-- Navbar (Place your navbar code here) -->
+    <!-- ... -->
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="text-center">About Me</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <!-- Image Column -->
+                    <img src="advait.jpg" alt="Advait Chandorkar" class="rounded-circle"
+                        style="width: 200px; height: 200px;">
+                </div>
+                <div class="col-lg-9">
+                    <!-- Text Column -->
+                    <p>
+                        Since 2010, I've been passionate about crafting elegant solutions for intricate challenges,
+                        transforming
+                        them into designs that are both simple and captivating. When I'm not immersed in the world of
+                        design,
+                        you'll likely
+                        find me experimenting with new recipes, tending to my garden, or staying active with outdoor
+                        workouts.
+
+                        I go by the name Advait Chandorkar, currently dedicated to the pursuit of knowledge in
+                        Mechanical
+                        Engineering at
+                        IIT Ropar. I am a passionate learner and a hardworking individual, with a keen interest in the
+                        field of
+                        electronics and
+                        robotics. I am a quick learner and a team player, with good communication skills. I am also a
+                        creative
+                        thinker and a good problem solver.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Responsive Grid Layout -->
+        <div class="container">
+            <div class="row">
+                <!-- Column Chart -->
+                <div class="col-lg-6">
+                    <div id="columnchart" style="width: 100%; height: 400px;"></div>
+                </div>
+                <!-- Resume Viewer -->
+                <div class="col-lg-6">
+                    <div class="pdf-container">
+                        <iframe src="Resume.pdf" width="100%" height="400px" style="border: none;"></iframe>
+                        <button id="download-btn" onclick="downloadResume()" class="btn btn-success mt-3">Download
+                            Resume</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Your existing scripts -->
+        <!-- ... -->
+
+        <!-- Additional script for Resume Viewer -->
+        <script>
+            function downloadResume() {
+                // Replace 'Resume.pdf' with the actual path to your PDF file
+                window.open('Resume.pdf', '_blank');
+            }
+
+            var pdfContainer = document.querySelector('.pdf-container');
+            var downloadBtn = document.getElementById('download-btn');
+
+            pdfContainer.addEventListener('mouseenter', function () {
+                downloadBtn.style.display = 'block';
+            });
+
+            pdfContainer.addEventListener('mouseleave', function () {
+                downloadBtn.style.display = 'none';
+            });
+        </script>
+
+        <!-- Google Charts script -->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load('current', { 'packages': ['corechart'] });
+            google.charts.setOnLoadCallback(drawChart);
+
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Skills', 'Proficiency'],
+                    ['Modeling', 4],
+                    ['Coding', 2],
+                    ['Artificial Intelligence', 3],
+                    ['CFD', 2],
+                    ['Mechanical Simulations', 4],
+                    ['Embedded Systems', 1],
+                ]);
+
+                var options = {
+                    titleTextStyle: {
+                        color: 'white' // Set title text color
+                    },
+                    legend: 'none', // Hide legend
+                    hAxis: {
+                        title: 'Skills',
+                        titleTextStyle: {
+                            color: 'white' // Set X-axis label text color
+                        },
+                        textStyle: {
+                            color: 'white' // Set X-axis tick text color
+                        }
+                    },
+                    vAxis: {
+                        title: 'Proficiency',
+                        titleTextStyle: {
+                            color: 'white' // Set Y-axis label text color
+                        },
+                        textStyle: {
+                            color: 'white' // Set Y-axis tick text color
+                        },
+                        ticks: [{ v: 1, f: 'Newbie' }, { v: 2, f: 'Geek' }, { v: 3, f: 'Ninja' }, { v: 4, f: 'Jedi' }, { v: 5, f: 'Master' }],
+                    },
+                    series: {
+                        0: { color: 'grey' }, // Jedi
+                    }
+                };
+
+                var chart = new google.visualization.ColumnChart(document.getElementById('columnchart'));
+                chart.draw(data, options);
+            }
+        </script>
+
+        <!-- Bootstrap JS and Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- Your existing scripts -->
+        <!-- ... -->
+
+    </section>
+
+    <!-- Your other sections -->
+    <!-- ... -->
+
+</body>
+
+</html>
+
+
+ 
+
+
+
+<!--
+<section id="services">
+    <div class="container">
+        <h1 class="text-center">Skills</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas fa-cube servicesIcon"></i>
+                        <h4 class="card-title mt-3">CAD Modeling</h4>
+                        <p class="card-text mt-3">Proficient in using software like Solidworks, Fusion360, AutoCAD,
+                            etc., for CAD modeling and designing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas fa-layer-group servicesIcon'></i>
+                        <h4 class="card-title mt-3">Simulations</h4>
+                        <p class="card-text mt-3">Experienced in using software such as Ansys, Comsol, Matlab, etc., for
+                            simulations, including fatigue, stress, and fluid flow.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas fa-code servicesIcon'></i>
+                        <h4 class="card-title mt-3">Coding</h4>
+                        <p class="card-text mt-3">Proficient in programming languages like Python, C++, Matlab, Java,
+                            etc. Involved in various projects using these languages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas fa-search servicesIcon'></i>
+                        <h4 class="card-title mt-3">Deep Learning</h4>
+                        <p class="card-text mt-3">Proficient in using software like TensorFlow, Keras, PyTorch, etc.,
+                            for deep learning. Involved in various projects using these technologies.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas fa-microchip servicesIcon'></i>
+                        <h4 class="card-title mt-3">Embedded Systems</h4>
+                        <p class="card-text mt-3">Proficient in using hardware platforms like Arduino, Raspberry Pi,
+                            Keil uVision, etc., for embedded systems. Involved in various projects using these
+                            platforms.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas fa-comments servicesIcon'></i>
+                        <h4 class="card-title mt-3">Communication</h4>
+                        <p class="card-text mt-3">Effective communication skills with experience in team projects,
+                            demonstrating strong teamwork abilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+    <!-- portfolio section-->
+<section id="projects">
+    <div class="container mt-5">
+        <h1 class="text-center">My Projects</h1>
+    
+        <!-- Project Cards -->
+        <div class="row mt-4">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="project1.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Inverse Kinematics using Deep Neural Network</h5>
+                        <p class="card-text">Inverse Kinematics for non-standard DH parameters for a modular robot using a
+                            deep neural network.</p>
+                        <a href="https://github.com/AdvaitChandorkar07/Inverse-kinematics-of-Puma560-using-Deep-learning" class="btn btn-primary mx-auto d-block"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Project2.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Electrical Resistive Tomography</h5>
+                        <p class="card-text">Detection and location of cracks in a composite sample by Electrical Resistive
+                            Tomography</p>
+                        <a href="https://github.com/AdvaitChandorkar07/Deeplearningmodelforelectricalresistancetomography" class="btn btn-primary mx-auto d-block"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Project3.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Soft Robotic Gripper</h5>
+                        <p class="card-text">A soft robotic gripper designed for patients with
+                            diabetic neuropathy.</p>
+                        <a href="https://drive.google.com/drive/folders/1g9YrsrtiZpn4uvJYjcylZuTIHjUOmjl5?usp=share_link" class="btn btn-primary mx-auto d-block"
+                            target="_blank">Drive</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Additional Projects -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="project4.jpeg" class="card-img-top" alt="Project 4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Heterogeneous Drone Swarming</h5>
+                        <p class="card-text">Heterogeneous Drone Swarming for disaster management with different flight time
+                            for individual drones</p>
+                        <a href="https://github.com/yourusername/project4" class="btn btn-primary mx-auto d-block"
+                            target="_blank">Work in Progress</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Project5.png" class="card-img-top" alt="Project 5">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Defect Detection using Deep Learning</h5>
+                        <p class="card-text">Deep Learning techniques to predict material defects for a small data set using deep neural network with PCA and
+                        pre-trained weightfa-spin
+                        from auto-encoders
+                        </p>
+                        <a href="https://github.com/AdvaitChandorkar07/Deep-Learning-techniques-to-predict-material-defects-for-a-small-dataset" class="btn btn-primary mx-auto d-block"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Project6.png" class="card-img-top" alt="Project 6">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Checkers Game</h5>
+                        <p class="card-text">The Human vs. Computer Checkers game, also known as English Draughts, is a classic board game played between two players
+                        on an 8x8 board. This engaging game is implemented based on a tree structure, incorporating the Alpha-Beta Pruning
+                        algorithm to enhance strategic decision-making of the computer while making it highly difficult to beat and fast in its decision decision-making</p>
+                        <a href="https://github.com/AdvaitChandorkar07/Checkers-game" class="btn btn-primary mx-auto d-block"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+    
+
+    <!-- contact section-->
+    
+<!-- contact section-->
+<section id="contact">
+    <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+            <!-- Form Column -->
+            <div class="col-lg-6">
+                <form action="https://formspree.io/f/xqkvrkok" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="_replyto" placeholder="Email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Project Details</label>
+                        <textarea class="form-control" rows="5" id="comment" name="message"
+                            placeholder="Project Details"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Contact Me</button>
+                </form>
+            </div>
+
+            <!-- Map Column -->
+            <div class="col-lg-6">
+                <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;">
+                    <div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe frameborder="0"
+                            src="https://www.google.com/maps/embed/v1/place?q=Neelkanth+Greens,+Neelkanth+Woods,+Manpada,+Thane+West,+Thane,+Maharashtra,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                            style="height:100%;width:100%;border:0;"></iframe>
+                    </div>
+                    <a class="google-maps-html" href="https://www.bootstrapskins.com/themes"
+                        id="enable-map-data">premium
+                        bootstrap themes</a>
+                    <style>
+                        #embed-ded-map-canvas img.text-marker {
+                            max-width: none !important;
+                            background: none !important;
+                            font-size: inherit;
+                            font-weight: inherit;
+                        }
+
+                        img {
+                            max-width: none
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <h4 class="text-center">Connect with me</h4>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
