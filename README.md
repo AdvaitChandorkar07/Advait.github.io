@@ -26,8 +26,7 @@ This repository contains the source code for Advait Chandorkar's personal portfo
 Feel free to reach out to Advait for collaboration, questions, or discussions.
 
 - **Email:** advait@email.com
-- **LinkedIn:** [Advait's LinkedIn Profile](https://www.linkedin.com/in/advaitchandorkar/)
-- **Twitter:** [@AdvaitTwitter](https://twitter.com/advaittwitter)
+- **Github:** https://github.com/AdvaitChandorkar07
 
 ## Setup and Usage
 
