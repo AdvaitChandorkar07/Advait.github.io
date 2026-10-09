@@ -1,0 +1,128 @@
+[
+  {
+    "id": "dl-fem",
+    "title": "Deep Learning Assisted FEM",
+    "short": "Hybrid FEM + DNN framework that uses uncertainty to decide when to trust the network, cutting compute time by ~55%.",
+    "description": "Accelerating optimization by combining high-fidelity FEM simulations with deep neural networks. Uncertainty quantification decides, per query, whether to rely on the DNN prediction or fall back to a full FEM solve. The aim is a generalized hybrid framework that balances accuracy and efficiency.",
+    "highlights": [
+      "~55% reduction in computational time",
+      "Uncertainty-driven switching between FEM and DNN",
+      "Guided by Dr Manish Agrawal (Jul 2024 - Dec 2024)"
+    ],
+    "image": "images/Project7.png",
+    "tags": ["Deep Learning", "FEM", "Uncertainty"],
+    "category": "Research",
+    "date": "2024",
+    "links": [{ "label": "Report", "url": "#" }]
+  },
+  {
+    "id": "ik-dnn",
+    "title": "Inverse Kinematics using Deep Neural Network",
+    "short": "Inverse kinematics for non-standard DH parameters of a modular robot using a deep neural network.",
+    "description": "A deep neural network that solves inverse kinematics for robot arms whose modules produce non-zero twists and non-standard DH parameters, where closed-form solutions are hard to derive. Built alongside the modular robotic arm research kit at IIT Ropar.",
+    "highlights": [
+      "Works for non-standard DH parameter configurations",
+      "Validated on the Puma 560 arm",
+      "Part of work with Dr. Ekta Singla"
+    ],
+    "image": "images/Project1.png",
+    "tags": ["Robotics", "Deep Learning", "Python"],
+    "category": "Robotics",
+    "date": "2023",
+    "links": [{ "label": "GitHub", "url": "https://github.com/AdvaitChandorkar07/Inverse-kinematics-of-Puma560-using-Deep-learning" }]
+  },
+  {
+    "id": "ert",
+    "title": "Electrical Resistance Tomography",
+    "short": "Detecting and locating cracks in a composite sample by inverse conductivity mapping.",
+    "description": "Current is passed through electrodes on a sample sheet of nonlinear, anisotropic, homogeneous conductivity and voltage patterns are measured at the periphery. A deep learning model builds an inverse conductivity map that predicts the presence and location of a defect directly from the voltages.",
+    "highlights": [
+      "Inverse mapping from boundary voltages to defect location",
+      "Collaboration between IIT Kanpur and IIT Ropar",
+      "Dr Prabhat Agniotri and Dr Nandini Gupta (Jul 2023 - Apr 2024)"
+    ],
+    "image": "images/Project2.png",
+    "tags": ["Deep Learning", "Composites", "Inverse Problems"],
+    "category": "Research",
+    "date": "2023 - 2024",
+    "links": [{ "label": "GitHub", "url": "https://github.com/AdvaitChandorkar07/Deeplearningmodelforelectricalresistancetomography" }]
+  },
+  {
+    "id": "soft-gripper",
+    "title": "Soft Robotic Gripper",
+    "short": "A glove-controlled, pneumatically actuated soft gripper designed for patients with diabetic neuropathy.",
+    "description": "A wearable glove with flex sensors captures finger stimuli and transmits them over Wi-Fi to control a five-fingered soft gripper made from Polydimethylsiloxane. The fingers are pneumatically operated; molds were 3D printed and the design was modeled in SolidWorks.",
+    "highlights": [
+      "Flex-sensor glove with Wi-Fi control",
+      "Five-finger PDMS gripper, pneumatic actuation",
+      "3D-printed molds, SolidWorks design"
+    ],
+    "image": "images/Project3.png",
+    "tags": ["Soft Robotics", "Embedded", "SolidWorks"],
+    "category": "Robotics",
+    "date": "2023",
+    "links": [{ "label": "Drive", "url": "https://drive.google.com/drive/folders/1g9YrsrtiZpn4uvJYjcylZuTIHjUOmjl5?usp=share_link" }]
+  },
+  {
+    "id": "drone-swarm",
+    "title": "Heterogeneous Drone Swarming",
+    "short": "Swarm of nano and large drones for flood surveillance and delivery of first-aid supplies.",
+    "description": "Designed a nano drone with a 3D-printed nylon body reinforced with carbon fiber and LoRa support to talk to the ground control station and other drones, plus larger drones to carry first aid and critical supplies. A swarm was simulated for surveillance and aid in flood situations, including autonomous operators that mimic human decision-making, with different flight times per drone.",
+    "highlights": [
+      "LoRa communication between drones and GCS",
+      "Disaster-management swarm simulation",
+      "Guided by Dr Shashi Jha, Dr Sudeepta Mishra and Dr Shrikant Padhee"
+    ],
+    "image": "images/Project4.jpeg",
+    "tags": ["UAV", "Simulation", "LoRa"],
+    "category": "Robotics",
+    "date": "2024",
+    "links": [{ "label": "Report", "url": "#" }]
+  },
+  {
+    "id": "defect-dl",
+    "title": "Defect Detection using Deep Learning",
+    "short": "Predicting material defects from a small dataset using a DNN with PCA and auto-encoder pre-trained weights.",
+    "description": "Deep learning techniques to predict material defects for a small dataset, using a deep neural network combined with PCA and pre-trained weights from auto-encoders to overcome limited data.",
+    "highlights": [
+      "Works on a small dataset",
+      "PCA + auto-encoder pretraining"
+    ],
+    "image": "images/Project5.png",
+    "tags": ["Deep Learning", "Materials", "Python"],
+    "category": "Software",
+    "date": "2023",
+    "links": [{ "label": "GitHub", "url": "https://github.com/AdvaitChandorkar07/Deep-Learning-techniques-to-predict-material-defects-for-a-small-dataset" }]
+  },
+  {
+    "id": "checkers",
+    "title": "Checkers Game",
+    "short": "Human vs. computer English Draughts with an Alpha-Beta Pruning AI that is fast and hard to beat.",
+    "description": "A Human vs. Computer Checkers (English Draughts) game on an 8x8 board, implemented on a game-tree structure with Alpha-Beta Pruning to sharpen the computer's strategic decision-making while keeping its moves fast.",
+    "highlights": [
+      "Game tree search with Alpha-Beta Pruning",
+      "Fast decisions, difficult to beat"
+    ],
+    "image": "images/Project6.png",
+    "tags": ["Algorithms", "Game AI"],
+    "category": "Software",
+    "date": "2023",
+    "links": [{ "label": "GitHub", "url": "https://github.com/AdvaitChandorkar07/Checkers-game" }]
+  },
+  {
+    "id": "modular-arm",
+    "title": "Modular Robotic Arm Kit",
+    "short": "Educational kit of interconnecting modules forming a serial manipulator, with auto-generated URDF files.",
+    "description": "Designed an educational robotic kit with modular components that interconnect into a serial manipulator. Each module has adjustable angles, supporting configurations with non-zero twists. Developed an algorithm that dynamically generates URDF files from the current module configuration.",
+    "highlights": [
+      "Adjustable-angle modules, non-zero twists",
+      "Dynamic URDF generation",
+      "With Dr. Ekta Singla (Apr 2023 - Jul 2023)"
+    ],
+    "image": "images/Project8.png",
+    "tags": ["Robotics", "URDF", "Design"],
+    "category": "Robotics",
+    "date": "2023",
+    "links": []
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "typedWords": ["simulation", "robotics", "Reinforcement learning", "smart materials", "UAV swarms"],
+
+  "education": [
+    { "degree": "B.Tech, Mechanical Engineering (Honours)", "school": "Indian Institute of Technology Ropar", "period": "2021 - 2025", "score": "CGPA 7.85", "note": "Minor in Electronics and Communication" },
+    { "degree": "Senior Secondary", "school": "Maharashtra State Board", "period": "2021", "score": "89.67%" },
+    { "degree": "Secondary (ICSE)", "school": "Indian Certificate of Secondary Education", "period": "2019", "score": "97.20%" }
+  ],
+
+  "experience": [
+    {
+      "role": "Simulation Engineer",
+      "org": "Defence Research and Development Organisation (DRDO)",
+      "place": "Pune, India",
+      "period": "Sept 2025 - Sept 2026",
+      "current": true,
+      "points": [
+        "Design and simulation of twisted coiled polymer actuators and shape memory actuators in COMSOL Multiphysics.",
+        "Simulating mechanical waves through soil to detect anti-personnel mines."
+      ]
+    },
+    {
+      "role": "Subsonic Simulation, Mechanical Intern",
+      "org": "Simulation Lab",
+      "place": "Pune, India",
+      "period": "Aug 2024 - Sep 2024",
+      "points": [
+        "Investigated a wing-attached feature aimed at maximizing aerodynamic efficiency.",
+        "Subsonic CFD of a UAV to compute lift and drag coefficients and forces."
+      ]
+    },
+    {
+      "role": "Robotics Intern, Robotic Arm",
+      "org": "PNT Robotics",
+      "place": "Mumbai, India",
+      "period": "May 2024 - Jul 2024",
+      "points": [
+        "Designed the robotic arm structure and a custom end-effector in SolidWorks.",
+        "Implemented real-time motion planning, with one arm deployed at the Atomic Research Centre."
+      ]
+    }
+  ],
+
+  "research": [
+    {
+      "topic": "Electrical Resistance Tomography",
+      "institute": "IIT Kanpur and IIT Ropar",
+      "advisor": "Dr Prabhat Agniotri and Dr Nandini Gupta",
+      "period": "Jul 2023 - Apr 2024",
+      "points": [
+        "Located a defect in a nonlinear, anisotropic, homogeneous conductivity sheet by building an inverse conductivity map from boundary voltage patterns.",
+        "Trained an inverse mapping that predicts the defect location directly from the voltages."
+      ],
+      "tags": ["Deep learning", "Inverse problems", "Composites"]
+    },
+    {
+      "topic": "Modular robotic arm",
+      "institute": "IIT Ropar",
+      "advisor": "Dr Ekta Singla",
+      "period": "Apr 2023 - Jul 2023",
+      "points": [
+        "Designed an educational kit of interconnecting modules that form a serial manipulator, with adjustable angles and non-zero twists.",
+        "Wrote an algorithm that generates URDF files from the current module configuration."
+      ],
+      "tags": ["Robotics", "URDF", "Design"]
+    }
+  ],
+
+ 
+  "publications": [
+    {
+      "title": "Divergent Ensemble Networks: Improving Predictive Reliability and Computational Efficiency",
+      "authors": "Advait Chandorkar, Arnav Kharbanda",
+      "venue": "International Journal of Artificial Intelligence & Applications (IJAIA), 16(1), 21–31",
+      "year": 2025,
+      "abstract": "Introduces the Divergent Ensemble Network (DEN), a framework that combines shared representation learning with independent branching to improve predictive reliability and computational efficiency. By reducing redundant parameters while maintaining prediction diversity, DEN aims to balance predictive accuracy, uncertainty estimation, and scalability.",
+      "links": [
+        {
+          "label": "Read paper",
+          "url": "https://doi.org/10.5121/ijaia.2025.16102"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2412.01193"
+        }
+      ]
+    },
+    {
+      "title": "Divergent Ensemble Networks: Enhancing Uncertainty Estimation with Shared Representations and Independent Branching",
+      "authors": "Advait Chandorkar, Arnav Kharbanda",
+      "venue": "International Journal on Cybernetics & Informatics (IJCI), 13(6), 69–78",
+      "year": 2024,
+      "abstract": "Explores the initial framework of Divergent Ensemble Networks, utilizing shared lower-level representations alongside independent branching layers to enhance uncertainty estimation and lower computational costs compared to traditional deep ensembles.",
+      "links": [
+        {
+          "label": "Read paper",
+          "url": "https://doi.org/10.5121/ijci.2024.130607"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2412.01193"
+        }
+      ]
+    },
+    {
+      "title": "Deep Learning Approach for Predicting the Replicator Equation in Evolutionary Game Theory",
+      "authors": "Advait Chandorkar",
+      "venue": "arXiv preprint",
+      "year": 2024,
+      "abstract": "Presents a physics-informed deep learning approach for predicting the replicator equation and forecasting population dynamics in evolutionary game theory. The method uses Sparse Identification of Nonlinear Dynamical Systems (SINDy) to identify governing equations, supporting the analysis of evolutionary dynamics across areas such as biology, economics, ecology, and social systems.",
+      "links": [
+        {
+          "label": "Read paper",
+          "url": "https://arxiv.org/abs/2412.02222"
+        }
+      ]
+    }
+  ],
+  
+
+  "skills": [
+    { "group": "CAD and CAE", "items": ["SolidWorks", "Fusion 360", "AutoCAD", "Ansys", "COMSOL Multiphysics", "Netgen", "Abaqus"] },
+    { "group": "Programming", "items": ["Python", "MATLAB", "C", "C++", "Java", "JavaScript"] },
+    { "group": "Focus areas", "items": ["Deep learning", "FEM and CFD", "Robotics", "Uncertainty quantification", "UAVs"] }
+  ],
+
+  "achievements": [
+    { "title": "FPV Racing, Technoxian", "detail": "Quarterfinalist, 2024" },
+    { "title": "Inter IIT Drona Challenge", "detail": "9th place, 2022" },
+    { "title": "AIB Mixed Palletization", "detail": "3rd place, 2022" },
+    { "title": "JEE Advanced", "detail": "AIR 7968, 2021" },
+    { "title": "JEE Mains", "detail": "99.63 percentile, 2021" },
+    { "title": "Aeromodelling Club, IIT Ropar", "detail": "Representative 2022-23, Mentor 2023-24" }
+  ],
+
+  "gallery": [
+    { "src": "images/.jpg", "caption": "Cyclathon" },
+    { "src": "images/.png", "caption": "Aeromodelling club" },
+    { "src": "images/.png", "caption": "Partying" },
+    { "src": "images/.jpg", "caption": "Hiking" }
+  ],
+
+  "contact": {
+    "email": "advaitc07@gmail.com",
+    "links": [
+      { "label": "Email", "icon": "fa-solid fa-envelope", "url": "mailto:advaitc07@gmail.com", "color": "#ff6a3d" },
+      { "label": "Phone", "icon": "fa-solid fa-phone", "url": "tel:+919323462323", "color": "#17b8ff" },
+      { "label": "GitHub", "icon": "fa-brands fa-github", "url": "https://github.com/AdvaitChandorkar07", "color": "#3b4a63" },
+      { "label": "LinkedIn", "icon": "fa-brands fa-linkedin-in", "url": "https://www.linkedin.com/", "color": "#0a66c2" }
+    ]
+  }
+}

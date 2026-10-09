@@ -1,0 +1,89 @@
+{
+  "publications": [
+    {
+      "title": "Divergent Ensemble Networks: Enhancing Uncertainty Estimation with Shared Representations and Independent Branching",
+      "authors": "Advait Chandorkar, Arnav Kharbanda",
+      "venue": "International Journal of Artificial Intelligence & Applications (IJAIA)",
+      "year": 2024,
+      "type": "Journal",
+      "abstract": "",
+      "links": [{ "label": "Paper", "url": "#" }]
+    },
+    {
+      "title": "Deep Learning Approach for Predicting the Replicator Equation in Evolutionary Game Theory",
+      "authors": "Advait Chandorkar",
+      "venue": "International Journal of Computer Science, Engineering and Information Technology (IJCSEIT)",
+      "year": 2024,
+      "type": "Journal",
+      "abstract": "",
+      "links": [{ "label": "Paper", "url": "#" }]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Simulation Engineer",
+      "org": "Defence Research and Development Organisation (DRDO)",
+      "place": "Pune, India",
+      "period": "Oct 2025 - Present",
+      "points": [
+        "Design and simulation of twisted coiled polymer actuators and shape memory actuators in COMSOL Multiphysics.",
+        "Simulating mechanical waves through soil to detect anti-personnel mines."
+      ]
+    },
+    
+   
+    {
+      "role": "AI Researcher",
+      "org": "Neuravia",
+      "place": "Wilmington, Delaware (USA) (Remote)",
+      "period": "Sept 2025 - March 2026",
+      "points": [
+        "Worked as an AI researcher aimed at detecting progression of Alzhimer's disease using low cost modalities. We created a pipeline for the data and then the input was fed to a reinforcment learning model which prepared the further tests and a different models to quantify the growth of the disease."
+      ]
+    },
+
+    {
+      "role": "Research Collaborator, Glass Fibre Metal Laminates",
+      "org": "RWTH Aachen (with Dr Sandeep Patil)",
+      "place": "Aachen, Germany",
+      "period": "Sep 2025 - Dec 2025",
+      "points": [
+        "Simulating GLARE composites to evaluate mechanical performance.",
+        "Multi-scale modelling that couples Molecular Dynamics with FEM for property prediction."
+      ]
+    },
+    {
+      "role": "Subsonic Simulation, Mechanical Intern",
+      "org": "Simulation Lab",
+      "place": "Pune, India",
+      "period": "May 2025 - Sep 2025",
+      "points": [
+        "Investigated a wing-attached feature aimed at maximizing aerodynamic efficiency.",
+        "Subsonic CFD of a UAV to compute lift and drag coefficients and forces."
+      ]
+    },
+    {
+      "role": "Robotics Intern, Robotic Arm",
+      "org": "PNT Robotics",
+      "place": "Mumbai, India",
+      "period": "May 2024 - Jul 2024",
+      "points": [
+        "Designed the robotic arm structure and a custom end-effector in SolidWorks.",
+        "Implemented real-time motion planning, with one arm deployed at the Atomic Research Centre."
+      ]
+    }
+  ],
+  "skills": [
+    { "group": "CAD & CAE", "items": ["SolidWorks", "Fusion 360", "AutoCAD", "Ansys", "COMSOL Multiphysics", "Netgen", "Abaqus"] },
+    { "group": "Programming", "items": ["Python", "MATLAB", "C", "C++", "Java", "JavaScript"] },
+    { "group": "Focus areas", "items": ["Deep Learning", "FEM / CFD", "Robotics", "Uncertainty Quantification", "UAVs"] }
+  ],
+  "achievements": [
+    { "title": "JEE Advanced", "detail": "AIR 8067, 2021" },
+    { "title": "JEE Mains", "detail": "99.63 percentile, 2021" },
+    { "title": "FPV Racing, Technoxian", "detail": "Quarterfinalist, 2024" },
+    { "title": "Inter IIT Drona Challenge", "detail": "9th place, 2022" },
+    { "title": "AIB Mixed Palletization", "detail": "3rd place, 2022" },
+    { "title": "Aeromodelling Club, IIT Ropar", "detail": "Representative 2022-23, Mentor 2023-24" }
+  ]
+}
